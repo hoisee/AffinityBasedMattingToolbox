@@ -5,4 +5,5 @@ tbloc = fileparts(mfilename('fullpath'));
 addpath(fullfile(tbloc, 'affinity'));
 addpath(fullfile(tbloc, 'trimming'));
 addpath(fullfile(tbloc, 'common'));
+addpath(fullfile(tbloc, 'mvs'));
 clear tbloc;
